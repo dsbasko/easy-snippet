@@ -19,7 +19,24 @@
         "command": "snipper-creator.helloWorld",
         "title": "Hello World"
       }
-    ]
+    ],
+    "views": {
+      "snippet-explorer": [
+        {
+          "id": "snippetExplorer",
+          "name": "Manager"
+        }
+      ]
+    },
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "snippet-explorer",
+          "title": "Easy Snippet",
+          "icon": "assets/icons/logo.svg"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
